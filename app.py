@@ -12,7 +12,7 @@ df = pd.DataFrame(values, columns=feature_names)
 df
 plot = df['alcohol']
 st.write('Voici le graphique de la colonne alcohol :')
-st.Line_chart(plot)
+st.line_chart(plot)
 
 
 
